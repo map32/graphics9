@@ -1,0 +1,23 @@
+constants whatever 0.4 0.4 0.2 0.4 0.4 0.2 0.4 0.4 0.2
+light helo -100 300 -100 255 255 255
+push
+move 100 350 0
+rotate x 15
+rotate y 30
+rotate y 360 body
+box 0 0 0 100 200 20
+push
+move 50 -220 -10
+sphere 0 0 0 20
+pop
+push
+move 0 -180 0
+rotate z 225
+box 0 0 0 25 100 25
+pop
+push
+move 100 -180 0
+rotate z 135
+box 0 0 0 25 100 25
+pop
+display

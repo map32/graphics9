@@ -1,0 +1,89 @@
+frames 100
+basename simple
+ambient 255 0 255
+push
+move 250 250 800
+rotate z -30
+rotate x 10
+rotate y 20
+rotate y 360 z
+push
+ambient 255 0 255
+move -300 0 0 one
+box 250 250 0 50 10 10
+pop
+push
+ambient 0 255 0
+move 0 -300 0 two
+box -250 250 0 50 10 10
+pop
+push
+ambient 0 255 255
+move 300 0 0 three
+box -250 -250 0 50 10 10
+pop
+push
+ambient 255 255 0
+move 0 300 0 four
+box 250 -250 0 50 10 10
+pop
+pop
+push
+move 250 250 0
+rotate z -25
+rotate x 30
+rotate y 10
+rotate x 360 h
+push
+ambient 255 0 128
+move -300 0 0 one
+box 250 250 0 50 10 10
+pop
+push
+ambient 128 0 255 
+move 0 -300 0 two
+box -250 250 0 50 10 10
+pop
+push
+ambient 200 100 255
+move 300 0 0 three
+box -250 -250 0 50 10 10
+pop
+push
+ambient 240 160 180
+move 0 300 0 four
+box 250 -250 0 50 10 10
+pop
+push
+move 250 250 0
+rotate z -15
+rotate x 10
+rotate y 40
+rotate z 360 a
+push
+ambient 220 64 128
+move -200 0 0 one
+box 250 250 0 50 10 10
+pop
+push
+ambient 160 70 210
+move 0 -200 0 two
+box -250 250 0 50 10 10
+pop
+push
+ambient 180 60 110
+move 200 0 0 three
+box -250 -250 0 50 10 10
+pop
+push
+ambient 110 58 170
+move 0 200 0 four
+box 250 -250 0 50 10 10
+pop
+vary one 0 99 0 2
+vary two 0 99 0 1
+vary three 0 99 0 0.5
+vary four 0 99 0 1
+vary z 0 99 0 1
+vary h 0 99 0 1
+vary a 0 99 0 1

@@ -1,0 +1,68 @@
+frames 60
+basename stps
+constants whatever 0.2 0.4 0.4 0.2 0.4 0.4 0.2 0.4 0.4
+light helo -100 -300 -100 144 238 144
+push
+move 500 500 0 ufomove
+move -500 -500 0 ufomove2
+rotate z 30
+rotate x 30
+rotate y 360 ufo
+rotate z 10 ufo
+scale 2 2 2 sc
+sphere 0 0 0 105
+light helo2 -100 -300 -100 229 26 79
+torus 0 0 0 15 120
+push
+constants aa 0.7 0.3 0 0.7 0.3 0 0.7 0.3 0
+light a -100 -300 -100 255 188 217
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light b -100 -300 -100 233 255 219
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light c -100 -300 -100 166 231 255
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light d -100 -300 -100 255 228 225
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light e -100 -300 -100 243 143 169
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light f -100 -300 -100 174 198 207
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light g -100 -300 -100 208 240 192
+rotate z 30
+sphere 105 0 0 15
+pop
+rotate y 45
+push
+light g -100 -300 -100 255 221 202
+rotate z 30
+sphere 105 0 0 15
+pop
+pop
+vary ufo 0 59 0 10
+vary ufomove 0 29 0 1
+vary ufomove2 30 59 0 1
+vary sc 0 59 0 1
